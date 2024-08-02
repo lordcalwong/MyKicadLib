@@ -1,18 +1,99 @@
-(module Pin_Pogo_D2.2 (layer F.Cu) (tedit 5FC3107C)
-  (descr "Contact Spring Loaded Pin Pogo 2.2DIA 6.5H Bot Mnt Yokowo")
-  (tags S-J-6106PT10A-1-00-0000)
-  (fp_text reference REF** (at -3.048 -3.048) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value Pin_Pogo_D2.2 (at 0.254 3.556) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_circle (center 0 0) (end 1.524 1.778) (layer F.CrtYd) (width 0.12))
-  (pad 1 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 2.2) (layers *.Cu *.Mask)
-    (solder_mask_margin 0.4) (clearance 0.4))
-  (model ${KICAD_USER_TEMPLATE_DIR}/calvertwong/3D/6016PT.step
-    (offset (xyz 1 67.25 15.3))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 90 0))
-  )
+(footprint "Pin_Pogo_D2.2"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Contact Spring Loaded Pin Pogo 2.2DIA 6.5H Bot Mnt Yokowo")
+	(tags "S-J-6106PT10A-1-00-0000")
+	(property "Reference" "REF**"
+		(at -3.048 -3.048 0)
+		(layer "F.SilkS")
+		(uuid "50015bea-7ddb-4afd-be8c-46627b1501c2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Pin_Pogo_D2.2"
+		(at 0.254 3.556 0)
+		(layer "F.Fab")
+		(uuid "199993b2-186f-457b-993c-15578736c01e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8c13081b-3fd9-446f-a951-14362a8c5ec1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "96371e8d-d8ee-4495-9cdd-62db0158c346")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ba96d480-ec5b-4278-9302-829187fc4d0a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 1.524 1.778)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "0fdf5507-8339-4688-a9b4-b3a2f52acef7")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 3.5 3.5)
+		(drill 2.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.4)
+		(clearance 0.4)
+		(uuid "f2c01788-add8-4072-b115-b30ce769ad91")
+	)
+	(model "${USERLIB_DIR}/MyKicadLib/3DOther.3dshapes/6016PT.step"
+		(offset
+			(xyz 1 67.25 15.3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 90 0)
+		)
+	)
 )

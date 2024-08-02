@@ -1,18 +1,99 @@
-(module Pin_Pogo_D2.52 (layer F.Cu) (tedit 5FC3108A)
-  (descr "Contact Spring Loaded Pin Pogo 2.52DIA 4-6 Wire Crimp 16-20AWG Top Mnt Mill-Max ")
-  (tags 0855-0-15-20-82-14-11-0)
-  (fp_text reference REF** (at -2.54 -3.048) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value Pin_Pogo_D2.52 (at 1.27 3.556) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_circle (center 0 0) (end 1.524 1.778) (layer F.CrtYd) (width 0.12))
-  (pad 1 thru_hole circle (at 0 0) (size 3.45 3.45) (drill 2.52) (layers *.Cu *.Mask)
-    (solder_mask_margin 0.4) (clearance 0.4))
-  (model ${KICAD_USER_TEMPLATE_DIR}/calvertwong/3D/0855-0-15-20-82-14-11-0.step
-    (offset (xyz 0 0 2.26))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 -90 0))
-  )
+(footprint "Pin_Pogo_D2.52"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Contact Spring Loaded Pin Pogo 2.52DIA 4-6 Wire Crimp 16-20AWG Top Mnt Mill-Max ")
+	(tags "0855-0-15-20-82-14-11-0")
+	(property "Reference" "REF**"
+		(at -2.54 -3.048 0)
+		(layer "F.SilkS")
+		(uuid "eb2d8144-7371-4c11-899f-02e15fd673a5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Pin_Pogo_D2.52"
+		(at 1.27 3.556 0)
+		(layer "F.Fab")
+		(uuid "c58759ac-0cc8-4f5b-a521-c5b74cfe7056")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dfb6d018-4158-49b0-982d-3e6f2f4281e0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "60525d86-0d18-4afc-b939-1e734e2e09c9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "df6bbcb8-57c0-4e7d-a2b7-7c92e82ed25c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 1.524 1.778)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "322190d8-2878-413d-a965-51c0a1c26069")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 3.45 3.45)
+		(drill 2.52)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.4)
+		(clearance 0.4)
+		(uuid "ab000314-0547-42a1-89e1-446770d651ce")
+	)
+	(model "${USERLIB_DIR}/MyKicadLib/3DOther.3dshapes/0855-0-15-20-82-14-11-0.step"
+		(offset
+			(xyz 0 0 2.26)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 -90 0)
+		)
+	)
 )

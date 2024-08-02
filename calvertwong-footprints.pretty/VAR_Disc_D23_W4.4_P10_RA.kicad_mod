@@ -1,31 +1,225 @@
-(module VAR_Disc_D23_W4.4_P10_RA (layer F.Cu) (tedit 60A5400C)
-  (descr "VAR Disc 23DIA 4.4THK LS10")
-  (fp_text reference REF** (at 5.5118 1.3 unlocked) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value VAR_Disc_D23_W4.4_P10_RA (at 4.5 -3.5) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_line (start 11.684 -2.286) (end 11.684 2.2) (layer F.SilkS) (width 0.15))
-  (fp_line (start 15.494 -2.3) (end 15.494 2.2) (layer F.Fab) (width 0.1))
-  (fp_line (start 15.24 -2.2) (end 15.24 2.1) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -5.588 2.1) (end 15.24 2.1) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -1.6256 -2.286) (end -1.6256 2.214) (layer F.SilkS) (width 0.15))
-  (fp_line (start -5.842 -2.3) (end -5.842 2.2) (layer F.Fab) (width 0.1))
-  (fp_line (start -5.588 -2.2) (end -5.588 2.1) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -5.588 -2.2) (end 15.24 -2.2) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -1.6256 2.214) (end 11.684 2.2) (layer F.SilkS) (width 0.15))
-  (fp_line (start -5.842 -2.3) (end 15.494 -2.3) (layer F.Fab) (width 0.1))
-  (fp_line (start -5.842 2.202) (end 15.494 2.202) (layer F.Fab) (width 0.1))
-  (fp_line (start -1.6256 -2.286) (end 11.684 -2.286) (layer F.SilkS) (width 0.15))
-  (fp_text user %R (at 12.9 -1.2) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (pad 2 thru_hole circle (at 10 0) (size 2.1 2.1) (drill 1.4) (layers *.Cu *.Mask))
-  (pad 1 thru_hole circle (at 0 0) (size 2.1 2.1) (drill 1.4) (layers *.Cu *.Mask))
-  (model ${KICAD_USER_DIR}/MOVDISC23LS10RA.step
-    (offset (xyz 10 -2.5 2.5))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 90 0 180))
-  )
+(footprint "VAR_Disc_D23_W4.4_P10_RA"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "VAR Disc 23DIA 4.4THK LS10")
+	(property "Reference" "REF**"
+		(at 5.5118 1.3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "44ea55c2-bdfa-48b3-9faa-1968c0a953ad")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "VAR_Disc_D23_W4.4_P10_RA"
+		(at 4.5 -3.5 0)
+		(layer "F.Fab")
+		(uuid "fc228a38-29f7-4db6-b346-253ef7a6b41a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e10d8085-5218-4985-9c10-3b3bc8f56e3a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "362f22a5-8ab3-4186-9519-e0663c7e4d9d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "72435217-a7f1-4dc2-8810-6c6696be14e8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.6256 -2.286)
+		(end -1.6256 2.214)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4022c5d8-a6d0-47a9-87ac-2754b8bfa21b")
+	)
+	(fp_line
+		(start -1.6256 -2.286)
+		(end 11.684 -2.286)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8bfbdc43-bc98-4407-8a9d-8116a237411b")
+	)
+	(fp_line
+		(start -1.6256 2.214)
+		(end 11.684 2.2)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "867143ea-d677-4754-990b-91d4945dac4d")
+	)
+	(fp_line
+		(start 11.684 -2.286)
+		(end 11.684 2.2)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "76af6e4e-f59d-4d09-881a-a562cc936d16")
+	)
+	(fp_line
+		(start -5.588 -2.2)
+		(end -5.588 2.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "13c0f28b-4b50-4e2b-9602-773680e532bc")
+	)
+	(fp_line
+		(start -5.588 -2.2)
+		(end 15.24 -2.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "db815db3-5663-461b-a8c9-5dc021a624a8")
+	)
+	(fp_line
+		(start -5.588 2.1)
+		(end 15.24 2.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ffe2a22f-f623-49ad-aa3a-c9b09e4aa9d3")
+	)
+	(fp_line
+		(start 15.24 -2.2)
+		(end 15.24 2.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0d5765b0-2158-47ad-9d77-82877f6b5b71")
+	)
+	(fp_line
+		(start -5.842 -2.3)
+		(end -5.842 2.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d87aadfa-868b-4b60-8478-03402576414c")
+	)
+	(fp_line
+		(start -5.842 -2.3)
+		(end 15.494 -2.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9ed8b7c1-ae0f-45f8-87fd-abc21157e844")
+	)
+	(fp_line
+		(start -5.842 2.202)
+		(end 15.494 2.202)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c5b9186e-dfe8-4396-93c6-5552964ed672")
+	)
+	(fp_line
+		(start 15.494 -2.3)
+		(end 15.494 2.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8aa07f66-4abc-468b-81da-f5e73669c915")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 12.9 -1.2 0)
+		(layer "F.Fab")
+		(uuid "40122126-d574-4c1d-83b1-d293d0bda669")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2.1 2.1)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e7564e0e-61c2-46c9-aeb6-17ac00e9b422")
+	)
+	(pad "2" thru_hole circle
+		(at 10 0)
+		(size 2.1 2.1)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4c9248ec-e0e4-444f-ab15-fcdb903fe7e7")
+	)
+	(model "${USERLIB_DIR}/MyKicadLib/3DOther.3dshapes/MOVDISC23LS10RA.step"
+		(offset
+			(xyz 10 -2.5 2.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 0 180)
+		)
+	)
 )

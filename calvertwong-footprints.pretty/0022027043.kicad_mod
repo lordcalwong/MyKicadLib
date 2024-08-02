@@ -1,22 +1,149 @@
-(module 0022027043 (layer F.Cu) (tedit 60013545)
-  (descr "CONN HDR SCKT VERT 4POS 1R 2.54MM TH")
-  (fp_text reference REF** (at 1.27 -5.08 180) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value 0022027043 (at 3.81 3.81) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_line (start -1.905 1.905) (end -1.905 -3.81) (layer F.SilkS) (width 0.12))
-  (fp_line (start 9.525 1.905) (end -1.905 1.905) (layer F.SilkS) (width 0.12))
-  (fp_line (start 9.525 -3.81) (end 9.525 1.905) (layer F.SilkS) (width 0.12))
-  (fp_line (start -1.905 -3.81) (end 9.525 -3.81) (layer F.SilkS) (width 0.12))
-  (pad 4 thru_hole oval (at 7.62 0 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
-  (pad 1 thru_hole rect (at 0 0 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
-  (pad 2 thru_hole oval (at 2.54 0 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
-  (pad 3 thru_hole oval (at 5.08 0 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
-  (model ${KICAD_USER_TEMPLATE_DIR}/calvertwong/3D/022027043.stp
-    (offset (xyz 3.8 -4.2 8))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "0022027043"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "CONN HDR SCKT VERT 4POS 1R 2.54MM TH")
+	(property "Reference" "REF**"
+		(at 1.27 -5.08 180)
+		(layer "F.SilkS")
+		(uuid "7288d942-ad66-4b14-9b64-ee37e7666bdf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "0022027043"
+		(at 3.81 3.81 0)
+		(layer "F.Fab")
+		(uuid "bef746d5-2eff-4f96-9bb5-a8cd4993f955")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "798c4599-d47c-4a1b-be24-26388fe3b437")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "390a3e5c-e05c-4eb1-bd47-5065e79112b4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "85c63403-96b5-44b0-84a4-9bc14a2dedf0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.905 -3.81)
+		(end 9.525 -3.81)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c9d17015-aa10-4c73-8a07-2e8687753b69")
+	)
+	(fp_line
+		(start -1.905 1.905)
+		(end -1.905 -3.81)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5ae56761-7e8c-433d-94af-28796082fa0f")
+	)
+	(fp_line
+		(start 9.525 -3.81)
+		(end 9.525 1.905)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d0c225e2-8dda-43f1-8493-03341bb26627")
+	)
+	(fp_line
+		(start 9.525 1.905)
+		(end -1.905 1.905)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f1a9b753-11d7-4b74-9ca6-eb691eb298f9")
+	)
+	(pad "1" thru_hole rect
+		(at 0 0 90)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7f14f30f-e048-4798-8a36-d167b9b2c30c")
+	)
+	(pad "2" thru_hole oval
+		(at 2.54 0 90)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "66654506-7b84-42bb-9b56-29b0a42e2f65")
+	)
+	(pad "3" thru_hole oval
+		(at 5.08 0 90)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bb29ac35-d284-46fe-9865-23e8dcfa4e5a")
+	)
+	(pad "4" thru_hole oval
+		(at 7.62 0 90)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "864a05e5-1f71-48f6-b6c6-ee770d85b424")
+	)
+	(model "${USERLIB_DIR}/MyKicadLib/3DOther.3dshapes/022027043.stp"
+		(offset
+			(xyz 3.8 -4.2 8)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
