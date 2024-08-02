@@ -1,0 +1,92 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 0022027043
+D CONN HDR SCKT 2.54PI 4POS 1ROW VERT TH
+K connector header socket 2.54mm pitch 4 pos Molex KK254 4455
+F https://www.digikey.com/en/products/detail/molex/0022027043
+$ENDCMP
+#
+$CMP 0871-0-15-20-82-14-11-0
+D CONN PIN SPRNG-LOADED 4.75D 9A SMD
+K pogo pin  Mill-Max
+F https://www.mill-max.com/products/pin/0871/0871-0-15-20-82-14-11-0?s_term=0871%09%200871-0-15-20-82-14-11-0&s_type=Quick/Product/Part%20Number%20Search
+$ENDCMP
+#
+$CMP 1718564004
+D CONN HDR PINS 2.54PI 4POS 1ROW VERT LCK TH
+K connector header 2.54mm pitch 1 row 4 pin locking tab Molex KK254
+F ~
+$ENDCMP
+#
+$CMP 705530004
+D CONN HDR PIN 2.54PI 5POS 1ROW RA LCK TH
+K connector receptacle housing pin Molex SL
+F https://www.digikey.com/en/products/detail/molex/0705530004/114963
+$ENDCMP
+#
+$CMP Arduino_Nano
+D MCU MODULE ARDUINO NANO V3
+K CARRIER BREAKOUT MCU ARDUINO NANO
+F https://store.arduino.cc/usa/arduino-nano
+$ENDCMP
+#
+$CMP CL2N3-G
+D IC CURR REG LED 20mA HIGH-SIDE TO-92-3
+K IC CC LED Driver 5 to 90V 20mA 10%
+F https://www.digikey.com/en/products/detail/microchip-technology/CL2N3-G/4902353
+$ENDCMP
+#
+$CMP GBJ2506-F
+D DIO BRIDGE RECT 1PH 600V 25A SIP
+K full wave bridge rectifier ACDC single phase 600V 25A Diodes Inc
+F https://www.digikey.com/en/products/detail/diodes-incorporated/GBJ2506-F/815161
+$ENDCMP
+#
+$CMP PB3006-E3
+D DIO BRIDGE RECT 1PH 600V 30A SIP
+K full wave bridge rectifier ACDC single phase 600V 30A Vishay PB3006-E3 Package 45
+F https://www.digikey.com/en/products/detail/vishay-semiconductor-diodes-division/PB3006-E3-45/4875118
+$ENDCMP
+#
+$CMP T93YA202KT20
+D RES POT TRIM 2K OHM 0.5W PC PIN TOP
+K resistor variable
+F https://www.vishay.com/docs/51026/t93.pdf
+$ENDCMP
+#
+$CMP T93YA502KT20
+D RES POT TRIM 5K OHM 0.5W PC PIN TOP
+K resistor variable
+F https://www.vishay.com/docs/51026/t93.pdf
+$ENDCMP
+#
+$CMP TB010-508-05BE
+D CONN TB SCRW 1ROW 5POS 5.08P 1.6DIA PTH
+K terminal block screw P5.08 CUI
+$ENDCMP
+#
+$CMP WP7113GD
+D LED 5MM T-1 3/4 GRN
+K LED 5MM T-1 3/4 GRN
+F https://www.digikey.com/en/products/detail/kingbright/WP7113GD/1747662
+$ENDCMP
+#
+$CMP WP7113ID
+D LED 5MM T-1 3/4 RED
+K LED 5MM T-1 3/4 RED
+F https://www.digikey.com/en/products/detail/kingbright/WP7113ID/1747663
+$ENDCMP
+#
+$CMP WP7113ILYD
+D LED 5MM T-1 3/4 YEL
+K LED 5MM T-1 3/4 YEL
+F https://www.digikey.com/en/products/detail/kingbright/WP7113LYD/1747667
+$ENDCMP
+#
+$CMP ZVN3306A
+D MOSFET N-CH 60V 270MA TO92-3
+K MOSFET N-CH 60V 270MA TH DIODES INC
+F https://www.digikey.com/en/products/detail/diodes-incorporated/ZVN3306A/92600
+$ENDCMP
+#
+#End Doc Library
