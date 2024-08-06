@@ -1,0 +1,228 @@
+(footprint "CP_Elec_Combo"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "CAP ALUM ELEC COMBO SMD")
+	(tags "Capacitor Electrolytic Combo")
+	(property "Reference" "REF**"
+		(at -7.7 0 0)
+		(layer "F.SilkS")
+		(uuid "cf3d134c-041f-4868-af59-102a661e0e85")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CP_Elec_Combo"
+		(at 0.5 -0.2 0)
+		(layer "F.Fab")
+		(uuid "11069c3d-c802-41a6-9962-06fec642808a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e0c2b508-af36-40ec-9997-b73f63cf027a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "92a4e48a-65d5-4d74-8628-db9442add5cb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "66eba436-8acd-4278-9341-c43ea99319cf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -4.0875 0.4125)
+		(end -3.7125 0.4125)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "39659bdb-ab3b-4e49-9c4c-42acb6fa0800")
+	)
+	(fp_line
+		(start -3.9 0.225)
+		(end -3.9 0.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "85438890-de56-4e8e-b747-3d12c8b4d624")
+	)
+	(fp_line
+		(start -2.3875 5.2125)
+		(end -2.0125 5.2125)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cc249ecb-2597-414b-bf57-70c3f7202a4b")
+	)
+	(fp_line
+		(start -2.2 5.025)
+		(end -2.2 5.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4588bf6e-8dbf-4310-aa3b-e07141eff2ef")
+	)
+	(fp_line
+		(start -0.1875 6.1)
+		(end 0.1875 6.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1c7aa273-c693-4f19-88d5-2c66d025b10f")
+	)
+	(fp_line
+		(start 0 5.9125)
+		(end 0 6.2875)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "49fabdbe-bc1d-48aa-bbea-e8eb0c926b3a")
+	)
+	(fp_line
+		(start 2.6 6.3)
+		(end 2.975 6.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5514e588-a8a5-4f94-a6ee-dd5d25969dcf")
+	)
+	(fp_line
+		(start 2.7875 6.1125)
+		(end 2.7875 6.4875)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6c2facda-0905-4647-9300-fd6113264c7a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.2 0 0)
+		(layer "F.Fab")
+		(uuid "138ffada-a853-4283-aae4-0fb80894445b")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.09)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -2.5 2.5 45)
+		(size 4.2 2.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1)
+		(uuid "a63b7464-fe0e-46ef-81f4-0e224aeb4f9c")
+	)
+	(pad "1" smd roundrect
+		(at -1.6 0)
+		(size 2.6 1.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.15625)
+		(uuid "15bfe178-cc08-41dc-8137-1ae2a18c6688")
+	)
+	(pad "1" smd roundrect
+		(at 0 3 90)
+		(size 3.5 1.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.15625)
+		(uuid "52e7a6a7-21f5-423c-a0e9-a0197f5d9eaa")
+	)
+	(pad "1" smd roundrect
+		(at 3.7 3.7 135)
+		(size 4.4 2.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1)
+		(uuid "0dd161d2-9af9-4eac-acda-20bafb23af3c")
+	)
+	(pad "2" smd roundrect
+		(at -3.7 -3.7 135)
+		(size 4.4 2.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1)
+		(uuid "03900cb9-be5d-463d-9ee4-fc3a52315ff7")
+	)
+	(pad "2" smd roundrect
+		(at 0 -3 90)
+		(size 3.5 1.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.15625)
+		(uuid "51840405-cd67-4ed5-97a5-b84f0a3be25f")
+	)
+	(pad "2" smd roundrect
+		(at 1.6 0)
+		(size 2.6 1.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.15625)
+		(uuid "9af4d1f4-9059-4689-914a-282e1b6a2abf")
+	)
+	(pad "2" smd roundrect
+		(at 2.5 -2.5 45)
+		(size 4.2 2.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1)
+		(uuid "34cf5dcb-41f3-43bb-81f2-bbf07277b25a")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/CP_Elec_3x5.3.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
