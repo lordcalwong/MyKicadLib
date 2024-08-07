@@ -1,2 +1,2 @@
 # MyKicadLib
-My private KiCad symbols and footprints
+Some KiCad symbols and footprints
