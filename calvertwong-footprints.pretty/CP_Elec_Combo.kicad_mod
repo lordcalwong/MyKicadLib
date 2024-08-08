@@ -68,6 +68,66 @@
 	)
 	(attr smd)
 	(fp_line
+		(start -2.422896 0.646687)
+		(end -2.398587 1.102476)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.Cu")
+		(uuid "72986966-b18e-47eb-be48-69cf5cc2de6b")
+	)
+	(fp_line
+		(start -1.201382 0.956624)
+		(end -1.207459 0.591993)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.Cu")
+		(uuid "29e85ce8-5328-4418-a3e1-c4b69cd7f8d6")
+	)
+	(fp_line
+		(start 0 -3)
+		(end -2.5 -3)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.Cu")
+		(uuid "13237e5b-f495-498e-930f-69e6452abf78")
+	)
+	(fp_line
+		(start 1.180415 -1.100805)
+		(end 1.204724 -0.57209)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.Cu")
+		(uuid "0ffd87b6-87c6-4afc-8ecb-700f2e7c47d7")
+	)
+	(fp_line
+		(start 1.75 3)
+		(end 0 3)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.Cu")
+		(uuid "dc7c34f7-bf3a-407b-8863-458b7c5c5d2e")
+	)
+	(fp_line
+		(start 2.5 -1)
+		(end 2.5 -0.5)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.Cu")
+		(uuid "df1bb51e-420c-45fb-973f-6d5eb58494b1")
+	)
+	(fp_line
 		(start -4.0875 0.4125)
 		(end -3.7125 0.4125)
 		(stroke
