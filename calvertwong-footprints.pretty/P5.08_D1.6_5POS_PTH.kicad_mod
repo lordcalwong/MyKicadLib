@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(descr "Terminal Block Screw 5.08 Pitch Horizontal 26-12AWG")
+	(descr "TERM BLK SCRW 5POS P5.08 HORZ 26-12AWG")
 	(tags "Wire to Board Terminal Block Horizontal 0.200\" (5.08mm) Pitch with 0.62\" (1.6mm) PTH TB010-508-05BE")
 	(property "Reference" "REF**"
 		(at 0 -7 0)
@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "TB010-508-05BE"
-		(at 6.604 9.906 0)
+		(at 6.604 7.75 0)
 		(layer "F.Fab")
 		(uuid "d4ba6a29-09b9-4f43-8707-24251bcd0778")
 		(effects
@@ -27,7 +27,7 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "calvertwong:P5.08_D1.6_5POS_PTH"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)

@@ -1,0 +1,238 @@
+(footprint "P5.08_D1.6_2POS_PTH"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "TERM BLK SCRW 2POS P5.08 HORZ 26-12AWG")
+	(tags "Wire to Board Terminal Block Horizontal 0.200\" (5.08mm) Pitch with 0.62\" (1.6mm) PTH TB003-500-P02BE")
+	(property "Reference" "REF**"
+		(at 0.945 -5.689 0)
+		(layer "F.SilkS")
+		(uuid "51cf39c0-9917-4994-8c1e-ca046b9a26b6")
+		(effects
+			(font
+				(size 1.4 1.4)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CUI_TB003-500-P02BE"
+		(at 13.391 5.361 0)
+		(layer "F.Fab")
+		(uuid "9611d618-9a18-4a73-b9c4-098485e35485")
+		(effects
+			(font
+				(size 1.4 1.4)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "calvertwong:P5.08_D1.6_2POS_PTH"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d339985e-f6f7-4ade-9d5a-ad8312b0c080")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.cuidevices.com/product/resource/tb003-500.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b1cc5149-3e00-47ef-92e8-fe67f0014ebf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Screw Terminal"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ec695e9b-8c3d-4303-96fb-95294cffb7e4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.5 -3.8)
+		(end 7.5 -3.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bb8b3c47-de3a-478e-bb45-104d2179ddef")
+	)
+	(fp_line
+		(start -2.5 4)
+		(end -2.5 -3.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a0b79150-765f-41bd-bb55-90129127d5dc")
+	)
+	(fp_line
+		(start 7.5 -3.8)
+		(end 7.5 4)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9435155f-58fa-4ce4-9d9f-d644b15fe214")
+	)
+	(fp_line
+		(start 7.5 4)
+		(end -2.5 4)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4105e2e4-c90e-48d0-a8d6-b3c95df85bcc")
+	)
+	(fp_circle
+		(center 0 -4.8)
+		(end 0.1 -4.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "72a8c997-bb51-49a9-800c-b16a434723f1")
+	)
+	(fp_line
+		(start -2.75 -4.05)
+		(end 7.75 -4.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "984b53f9-b76a-42a4-9b88-efcd8f434094")
+	)
+	(fp_line
+		(start -2.75 4.25)
+		(end -2.75 -4.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1b5ed99e-a37f-4a39-bde5-01e02eea396e")
+	)
+	(fp_line
+		(start 7.75 -4.05)
+		(end 7.75 4.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e6e7c9b6-f3d8-4efe-be80-a72a3ebe949a")
+	)
+	(fp_line
+		(start 7.75 4.25)
+		(end -2.75 4.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "64aec86d-c1aa-4340-8d13-21f21a6b55f6")
+	)
+	(fp_line
+		(start -2.5 -3.8)
+		(end 7.5 -3.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "69abc810-34cd-4835-b742-d01d9178cb9d")
+	)
+	(fp_line
+		(start -2.5 4)
+		(end -2.5 -3.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ae71f53c-cfcb-44ae-9f5f-a69dd3847767")
+	)
+	(fp_line
+		(start 7.5 -3.8)
+		(end 7.5 4)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "913e245a-0f02-4900-a5d9-e28ae0104e83")
+	)
+	(fp_line
+		(start 7.5 4)
+		(end -2.5 4)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d39e3147-125e-4b34-ac0f-d7c76a5f1b04")
+	)
+	(fp_circle
+		(center 0 -4.8)
+		(end 0.1 -4.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "e2c343ab-423f-406c-bf48-189b85a43c79")
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 2.1 2.1)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "527bbd33-4f6f-4e96-8cf7-e231bbcff6b5")
+	)
+	(pad "2" thru_hole circle
+		(at 5 0)
+		(size 2.1 2.1)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "eca2242c-ecb0-4e40-97a4-03822bfb5477")
+	)
+	(model "${MYKICADLIB}/3DOther.3dshapes/TB003-500-P02BE.step"
+		(offset
+			(xyz 10 -3.75 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -90)
+		)
+	)
+)
