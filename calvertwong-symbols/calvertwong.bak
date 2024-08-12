@@ -2916,7 +2916,7 @@
 			(pin passive line
 				(at 0 5.08 270)
 				(length 2.54)
-				(name "1"
+				(name "HI"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2934,7 +2934,7 @@
 			(pin passive line
 				(at 3.81 2.54 180)
 				(length 2.54)
-				(name "2"
+				(name "HI"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2952,7 +2952,7 @@
 			(pin passive line
 				(at 3.81 -2.54 180)
 				(length 2.54)
-				(name "3"
+				(name "LO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2970,7 +2970,7 @@
 			(pin passive line
 				(at 0 -5.08 90)
 				(length 2.54)
-				(name "4"
+				(name "LO"
 					(effects
 						(font
 							(size 1.27 1.27)
