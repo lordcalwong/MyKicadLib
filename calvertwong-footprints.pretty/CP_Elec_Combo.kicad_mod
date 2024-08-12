@@ -68,66 +68,6 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -2.422896 0.646687)
-		(end -2.398587 1.102476)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(layer "F.Cu")
-		(uuid "72986966-b18e-47eb-be48-69cf5cc2de6b")
-	)
-	(fp_line
-		(start -1.201382 0.956624)
-		(end -1.207459 0.591993)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(layer "F.Cu")
-		(uuid "29e85ce8-5328-4418-a3e1-c4b69cd7f8d6")
-	)
-	(fp_line
-		(start 0 -3)
-		(end -2.5 -3)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(layer "F.Cu")
-		(uuid "13237e5b-f495-498e-930f-69e6452abf78")
-	)
-	(fp_line
-		(start 1.180415 -1.100805)
-		(end 1.204724 -0.57209)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(layer "F.Cu")
-		(uuid "0ffd87b6-87c6-4afc-8ecb-700f2e7c47d7")
-	)
-	(fp_line
-		(start 1.75 3)
-		(end 0 3)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(layer "F.Cu")
-		(uuid "dc7c34f7-bf3a-407b-8863-458b7c5c5d2e")
-	)
-	(fp_line
-		(start 2.5 -1)
-		(end 2.5 -0.5)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(layer "F.Cu")
-		(uuid "df1bb51e-420c-45fb-973f-6d5eb58494b1")
-	)
-	(fp_line
 		(start -4.0875 0.4125)
 		(end -3.7125 0.4125)
 		(stroke
@@ -218,63 +158,55 @@
 			)
 		)
 	)
-	(pad "1" smd roundrect
-		(at -2.5 2.5 45)
-		(size 4.2 2.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(roundrect_rratio 0.1)
-		(uuid "a63b7464-fe0e-46ef-81f4-0e224aeb4f9c")
+	(pad "1" smd custom
+		(at -2.54 2.54)
+		(size 2.286 2.286)
+		(layers "F.Cu" "F.Mask")
+		(solder_mask_margin 0.0508)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 4.141338 0.821718) (xy 6.911751 3.599518) (xy 8.679518 1.831751) (xy 5.568249 -1.279518) (xy 4.051074 0.225126)
+					(xy 3.336886 0.225126) (xy 3.34 -1.29) (xy 1.758192 -1.289632) (xy 1.758192 -1.739629) (xy 2.24 -1.74)
+					(xy 2.24 -3.34) (xy -0.36 -3.34) (xy -0.36 -1.74) (xy -0.124368 -1.50203) (xy -2.258097 0.631751)
+					(xy -0.631751 2.258097) (xy 1.496462 0.131793) (xy 1.741485 0.376816) (xy 1.74 2.21) (xy 3.34 2.21)
+					(xy 3.342227 0.821718)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "48c1b2af-aeab-4e5c-b982-b66aca8ca26a")
 	)
-	(pad "1" smd roundrect
-		(at -1.6 0)
-		(size 2.6 1.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(roundrect_rratio 0.15625)
-		(uuid "15bfe178-cc08-41dc-8137-1ae2a18c6688")
-	)
-	(pad "1" smd roundrect
-		(at 0 3 90)
-		(size 3.5 1.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(roundrect_rratio 0.15625)
-		(uuid "52e7a6a7-21f5-423c-a0e9-a0197f5d9eaa")
-	)
-	(pad "1" smd roundrect
-		(at 3.7 3.7 135)
-		(size 4.4 2.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(roundrect_rratio 0.1)
-		(uuid "0dd161d2-9af9-4eac-acda-20bafb23af3c")
-	)
-	(pad "2" smd roundrect
-		(at -3.7 -3.7 135)
-		(size 4.4 2.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(roundrect_rratio 0.1)
-		(uuid "03900cb9-be5d-463d-9ee4-fc3a52315ff7")
-	)
-	(pad "2" smd roundrect
-		(at 0 -3 90)
-		(size 3.5 1.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(roundrect_rratio 0.15625)
-		(uuid "51840405-cd67-4ed5-97a5-b84f0a3be25f")
-	)
-	(pad "2" smd roundrect
-		(at 1.6 0)
-		(size 2.6 1.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(roundrect_rratio 0.15625)
-		(uuid "9af4d1f4-9059-4689-914a-282e1b6a2abf")
-	)
-	(pad "2" smd roundrect
-		(at 2.5 -2.5 45)
-		(size 4.2 2.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(roundrect_rratio 0.1)
-		(uuid "34cf5dcb-41f3-43bb-81f2-bbf07277b25a")
+	(pad "2" smd custom
+		(at -3.81 -3.81)
+		(size 2.286 2.286)
+		(layers "F.Cu" "F.Mask")
+		(solder_mask_margin 0.0508)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 3.01 -0.94) (xy 3.009011 0.507373) (xy 2.272701 0.505693) (xy -0.561751 -2.329518) (xy -2.329518 -0.561751)
+					(xy 0.781751 2.549518) (xy 2.049953 1.270001) (xy 3.010248 1.27) (xy 3.01 2.56) (xy 4.61 2.56)
+					(xy 5.030499 3.010248) (xy 4.11 3.01) (xy 4.11 4.61) (xy 6.71 4.61) (xy 6.71 3.01) (xy 6.248125 3.00929)
+					(xy 8.608097 0.638249) (xy 6.981751 -0.988097) (xy 4.60309 1.357327) (xy 4.61 -0.94)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "74a9a83e-d66f-44fd-bb27-585c4e249d2d")
 	)
 	(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/CP_Elec_3x5.3.wrl"
+		(hide yes)
 		(offset
 			(xyz 0 0 0)
 		)
