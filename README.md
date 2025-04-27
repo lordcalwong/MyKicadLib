@@ -1,2 +1,2 @@
 # MyKicadLib
-Some KiCad symbols and footprints
+Some of my KiCad symbols and footprints
