@@ -1,14 +1,14 @@
 (footprint "CP_Elec_Combo"
-	(version 20240108)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "CAP ALUM ELEC COMBO SMD")
 	(tags "Capacitor Electrolytic Combo")
 	(property "Reference" "REF**"
-		(at -7.7 0 0)
+		(at -8.7122 -0.2286 0)
 		(layer "F.SilkS")
-		(uuid "cf3d134c-041f-4868-af59-102a661e0e85")
+		(uuid "daed99d0-086f-41ff-b53a-d323c63ceb5a")
 		(effects
 			(font
 				(size 1 1)
@@ -17,25 +17,12 @@
 		)
 	)
 	(property "Value" "CP_Elec_Combo"
-		(at 0.5 -0.2 0)
+		(at -0.1016 1.4986 0)
 		(layer "F.Fab")
-		(uuid "11069c3d-c802-41a6-9962-06fec642808a")
+		(uuid "84bee8c2-ac77-4334-9b57-b21b7c7eebce")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "e0c2b508-af36-40ec-9997-b73f63cf027a")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -45,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "92a4e48a-65d5-4d74-8628-db9442add5cb")
+		(uuid "0c27d20b-c2a6-408f-81e0-d96b596b59d0")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -58,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "66eba436-8acd-4278-9341-c43ea99319cf")
+		(uuid "d53f5eab-6079-4e4b-9448-39b5a71a9435")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -67,90 +54,131 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
-		(start -4.0875 0.4125)
-		(end -3.7125 0.4125)
+		(start -4.5152 0.381)
+		(end -4.1402 0.381)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "39659bdb-ab3b-4e49-9c4c-42acb6fa0800")
+		(uuid "c8c6fa2f-2f72-4b9a-81f4-41078c860dc8")
 	)
 	(fp_line
-		(start -3.9 0.225)
-		(end -3.9 0.6)
+		(start -3.7689 -6.3961)
+		(end -3.3939 -6.3961)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "85438890-de56-4e8e-b747-3d12c8b4d624")
+		(uuid "02567872-f2eb-4c62-9c2d-9b86c7d1425c")
 	)
 	(fp_line
-		(start -2.3875 5.2125)
-		(end -2.0125 5.2125)
+		(start -3.5814 -6.5836)
+		(end -3.5814 -6.2086)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "cc249ecb-2597-414b-bf57-70c3f7202a4b")
+		(uuid "184bb70e-5ce5-4338-b703-56fdbdbf0ba5")
 	)
 	(fp_line
-		(start -2.2 5.025)
-		(end -2.2 5.4)
+		(start -2.4481 5.1816)
+		(end -2.0731 5.1816)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "4588bf6e-8dbf-4310-aa3b-e07141eff2ef")
+		(uuid "9586b3d9-7a8c-4820-9149-84af450f7cf3")
 	)
 	(fp_line
-		(start -0.1875 6.1)
-		(end 0.1875 6.1)
+		(start 0.6064 -5.5086)
+		(end 0.9814 -5.5086)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "1c7aa273-c693-4f19-88d5-2c66d025b10f")
+		(uuid "6fecd14f-b477-4f83-b84a-7514d177a442")
 	)
 	(fp_line
-		(start 0 5.9125)
-		(end 0 6.2875)
+		(start 0.7939 -5.6961)
+		(end 0.7939 -5.3211)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "49fabdbe-bc1d-48aa-bbea-e8eb0c926b3a")
+		(uuid "954421df-558e-4b56-9f18-a8c5c966af82")
 	)
 	(fp_line
-		(start 2.6 6.3)
-		(end 2.975 6.3)
+		(start 1.1333 5.1816)
+		(end 1.5083 5.1816)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "5514e588-a8a5-4f94-a6ee-dd5d25969dcf")
+		(uuid "bbb4ab5a-efd9-478e-ac9e-64165179c23b")
 	)
 	(fp_line
-		(start 2.7875 6.1125)
-		(end 2.7875 6.4875)
+		(start 3.3939 -5.3086)
+		(end 3.7689 -5.3086)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "6c2facda-0905-4647-9300-fd6113264c7a")
+		(uuid "dc6b33db-5970-40c7-a8a6-3b1db2756ddf")
+	)
+	(fp_line
+		(start 3.5463 -0.4826)
+		(end 3.9213 -0.4826)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a5181bb7-8fb7-4e44-8a46-2a63e48544e7")
+	)
+	(fp_line
+		(start 3.5814 -5.4961)
+		(end 3.5814 -5.1211)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b9ddb21e-d37f-4965-9acb-b5e91489fc17")
+	)
+	(fp_line
+		(start 3.7338 -0.6701)
+		(end 3.7338 -0.2951)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ca7bd167-6f60-4929-8bba-ecaa8090583c")
+	)
+	(fp_line
+		(start 6.0609 3.1496)
+		(end 6.4359 3.1496)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4049660f-ceab-4bd2-86f8-c4f29a4a25fd")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0.2 0 0)
+		(at 0.35485 -1.4224 0)
 		(layer "F.Fab")
-		(uuid "138ffada-a853-4283-aae4-0fb80894445b")
+		(uuid "ca462ada-d2ff-45a3-9516-c66085f2c73b")
 		(effects
 			(font
 				(size 0.6 0.6)
@@ -159,10 +187,10 @@
 		)
 	)
 	(pad "1" smd custom
-		(at -2.54 2.54)
-		(size 2.286 2.286)
+		(at 0 -3.048)
+		(size 0.254 0.254)
 		(layers "F.Cu" "F.Mask")
-		(solder_mask_margin 0.0508)
+		(solder_mask_margin 0.0762)
 		(options
 			(clearance outline)
 			(anchor circle)
@@ -170,23 +198,34 @@
 		(primitives
 			(gr_poly
 				(pts
-					(xy 4.141338 0.821718) (xy 6.911751 3.599518) (xy 8.679518 1.831751) (xy 5.568249 -1.279518) (xy 4.051074 0.225126)
-					(xy 3.336886 0.225126) (xy 3.34 -1.29) (xy 1.758192 -1.289632) (xy 1.758192 -1.739629) (xy 2.24 -1.74)
-					(xy 2.24 -3.34) (xy -0.36 -3.34) (xy -0.36 -1.74) (xy -0.124368 -1.50203) (xy -2.258097 0.631751)
-					(xy -0.631751 2.258097) (xy 1.496462 0.131793) (xy 1.741485 0.376816) (xy 1.74 2.21) (xy 3.34 2.21)
-					(xy 3.342227 0.821718)
+					(xy -0.798456 -1.7018) (xy -0.800989 -0.381) (xy -1.662664 -0.381672) (xy -4.371751 -3.091518)
+					(xy -6.139518 -1.323751) (xy -3.028249 1.787518) (xy -1.760047 0.508001) (xy -0.799752 0.508) (xy -0.8 1.798)
+					(xy 0.793264 1.796981) (xy 0.793553 2.249382) (xy 0.35485 2.249588) (xy 0.3556 3.848) (xy 2.9 3.848)
+					(xy 2.90023 3.581228) (xy 3.1496 3.5814) (xy 3.1496 2.5146) (xy 2.9 2.5146) (xy 2.9 2.248) (xy 2.653415 2.032)
+					(xy 4.798097 -0.123751) (xy 3.171751 -1.750097) (xy 1.089277 0.300754) (xy 0.79309 0) (xy 0.794106 -1.701416)
 				)
 				(width 0)
 				(fill yes)
 			)
 		)
-		(uuid "48c1b2af-aeab-4e5c-b982-b66aca8ca26a")
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges no)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "5f5d399a-6ed4-4db4-97ac-26920672cc46")
 	)
 	(pad "2" smd custom
-		(at -3.81 -3.81)
-		(size 2.286 2.286)
+		(at 0 3.048)
+		(size 0.254 2.286)
 		(layers "F.Cu" "F.Mask")
-		(solder_mask_margin 0.0508)
+		(solder_mask_margin 0.0762)
 		(options
 			(clearance outline)
 			(anchor circle)
@@ -194,17 +233,30 @@
 		(primitives
 			(gr_poly
 				(pts
-					(xy 3.01 -0.94) (xy 3.009011 0.507373) (xy 2.272701 0.505693) (xy -0.561751 -2.329518) (xy -2.329518 -0.561751)
-					(xy 0.781751 2.549518) (xy 2.049953 1.270001) (xy 3.010248 1.27) (xy 3.01 2.56) (xy 4.61 2.56)
-					(xy 5.030499 3.010248) (xy 4.11 3.01) (xy 4.11 4.61) (xy 6.71 4.61) (xy 6.71 3.01) (xy 6.248125 3.00929)
-					(xy 8.608097 0.638249) (xy 6.981751 -0.988097) (xy 4.60309 1.357327) (xy 4.61 -0.94)
+					(xy 1.721544 0.433924) (xy 4.371751 3.091518) (xy 6.139518 1.323751) (xy 3.028249 -1.787518) (xy 1.68405 -0.45585)
+					(xy 0.796886 -0.4572) (xy 0.8 -1.798) (xy -0.781808 -1.797632) (xy -0.781808 -2.247629) (xy -0.3556 -2.248)
+					(xy -0.3556 -3.848) (xy -2.9 -3.848) (xy -2.9 -3.5814) (xy -3.1496 -3.5814) (xy -3.146619 -2.513913)
+					(xy -2.90096 -2.514797) (xy -2.9 -2.248) (xy -2.664368 -2.01003) (xy -4.798097 0.123751) (xy -3.171751 1.750097)
+					(xy -1.043538 -0.376207) (xy -0.798515 -0.131184) (xy -0.8 1.702) (xy 0.8 1.702) (xy 0.802227 0.4318)
 				)
 				(width 0)
 				(fill yes)
 			)
 		)
-		(uuid "74a9a83e-d66f-44fd-bb27-585c4e249d2d")
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges no)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "eb3780e0-a91c-4021-87d9-e8de367b6cdc")
 	)
+	(embedded_fonts no)
 	(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/CP_Elec_3x5.3.wrl"
 		(hide yes)
 		(offset
