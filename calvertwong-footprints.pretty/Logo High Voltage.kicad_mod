@@ -5,9 +5,9 @@
 	(layer "F.Cu")
 	(descr "PCB Logo High Voltage")
 	(property "Reference" "G***"
-		(at 0 0 0)
+		(at -5 -3.5 0)
 		(layer "F.SilkS")
-		(uuid "2c037a80-8e4a-4c61-96c2-b5cfa869580b")
+		(uuid "ce8a9dbe-38fb-4fb8-b0a2-63f363136c8f")
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -19,7 +19,7 @@
 		(at 0.75 0 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "33bf4d38-1a3f-400c-9918-1f95761ccbdd")
+		(uuid "f629eabe-c58f-4297-8ee5-2529bfb648d4")
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -31,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "cfbc1851-4e1c-4f61-aec7-fa57037c9d8f")
+		(uuid "ef81d8b4-4430-4079-81fa-ee33767ddcda")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -42,7 +42,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "c9fa5a94-f50a-447d-a2ca-e1218395a155")
+		(uuid "c89a15d6-3058-41e9-9b16-1c3490e89008")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -86,7 +86,7 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "9dcff24f-094d-4ee6-b308-f8a470ce2f3a")
+		(uuid "d2516669-031e-4ace-a5d6-228d45a25bc3")
 	)
 	(fp_poly
 		(pts
@@ -140,7 +140,7 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "44717ce3-9583-4153-97ec-e1746e22944c")
+		(uuid "f64180c9-b17f-462f-b724-85245cf05858")
 	)
 	(embedded_fonts no)
 )

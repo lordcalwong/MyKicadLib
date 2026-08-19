@@ -4,10 +4,11 @@
 	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "PCB Logo Full Wave 12x5 mm")
+	(tags "Logo Silk Full Wave Rectified")
 	(property "Reference" "G***"
-		(at 0 0 0)
+		(at 0 -4 0)
 		(layer "F.SilkS")
-		(uuid "6b06dd8b-d541-4188-b476-116e1a006c1e")
+		(uuid "02db7788-1d88-4fdc-930f-e8216ddda2bf")
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -19,7 +20,7 @@
 		(at 0.75 0 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "205bdce7-3dda-46de-b83d-84e641a50490")
+		(uuid "18c0bcc5-9c2d-4111-b15a-2cfcdd33a7d0")
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -31,7 +32,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "829a2720-34cf-44e6-92c7-47d040063751")
+		(uuid "87987ea5-0ad2-4cf8-afdf-0459a94d8b12")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -42,7 +43,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "bed966bd-5c29-4f2b-9ed2-8289cb0aa154")
+		(uuid "6f4081ea-e729-48bf-a142-fc8f80b7d7d6")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -119,7 +120,7 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "f93363b0-13ed-4032-97e3-191c8622bccc")
+		(uuid "55837933-4122-46b1-a688-d7bcfe79dfdc")
 	)
 	(embedded_fonts no)
 )
