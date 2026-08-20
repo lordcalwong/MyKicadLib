@@ -8,7 +8,7 @@
 	(property "Reference" "REF**"
 		(at 11.2 -10.6 0)
 		(layer "F.SilkS")
-		(uuid "e923497c-5cde-4d6c-a2ba-dda7394a1498")
+		(uuid "1d48957b-67d2-44b4-a426-9edc6cdcad8e")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 	(property "Value" "C_Radial_D18.0mm_H40mm_P7.50mm_SMD"
 		(at 3.75 11 0)
 		(layer "F.Fab")
-		(uuid "ca3ac28c-4fde-4f15-a943-61c7cb46de2c")
+		(uuid "fb8b01a6-2a0e-48fa-bf64-af01970cb4b3")
 		(effects
 			(font
 				(size 1 1)
@@ -27,11 +27,11 @@
 			)
 		)
 	)
-	(property "Datasheet" "custom hand-solder"
+	(property "Datasheet" ""
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "da2d45c6-6e70-4ec5-b803-b946051f142f")
+		(uuid "e325e2cd-08b7-45ef-bdfa-e2b979a71a31")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -42,7 +42,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "7dd1c9d9-11be-40a8-b752-7fd0cbdb5300")
+		(uuid "a9a5dcd9-cf5d-46aa-8235-b98074f43887")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -53,7 +53,7 @@
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "29ef8cde-22b7-4964-9c99-de5c2cd6f6dd")
+		(uuid "3fe1ba3b-0ee1-46fb-bf7f-1a2910f67959")
 		(effects
 			(font
 				(size 1 1)
@@ -72,7 +72,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "5d3205a2-c18f-45be-b039-0a0e1be72c12")
+		(uuid "fcd5a66c-ec83-4494-a798-fbe3778ee9d5")
 	)
 	(fp_arc
 		(start 12.857297 1.328108)
@@ -83,7 +83,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "5470d9e6-d3ef-4a10-9039-31e79f24955a")
+		(uuid "77fa9096-4751-4ccd-8e91-5a227ecc0daa")
 	)
 	(fp_circle
 		(center 3.75 0)
@@ -94,7 +94,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "32ef10cd-8db0-4203-80ae-a3efc6a7ef87")
+		(uuid "65498736-f01c-4dca-a99f-b3ef39637f92")
 	)
 	(fp_circle
 		(center 3.75 0)
@@ -105,13 +105,13 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "673b0863-76e8-4daf-b09d-6f0527cb8ab7")
+		(uuid "6251498b-22ae-4914-b26d-d52a140b6e0d")
 	)
 	(fp_text user "+"
 		(at -5.37 -7.2 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "f7a88f5a-69f6-4d10-8efb-f613eb89472d")
+		(uuid "ae44c616-6bbb-4c06-b9c5-95c418660d83")
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -123,7 +123,7 @@
 	(fp_text user "${REFERENCE}"
 		(at 3.75 0 0)
 		(layer "F.Fab")
-		(uuid "facfa820-060d-48f2-b90e-b29d69ae3a3f")
+		(uuid "94db2920-68d1-4b95-8bb6-e86545c471b5")
 		(effects
 			(font
 				(size 1 1)
@@ -148,7 +148,7 @@
 				(fill yes)
 			)
 		)
-		(uuid "07c79160-58f6-494d-921f-2ae211b13d17")
+		(uuid "75b74de6-a327-4784-afb1-6e7d0b3c2f79")
 	)
 	(pad "2" smd custom
 		(at 7.5 0)
@@ -167,7 +167,7 @@
 				(fill yes)
 			)
 		)
-		(uuid "16127588-e016-4904-9e41-dbb41db80c2b")
+		(uuid "44abccdb-c97a-49fa-9fe6-84d95ec0ea26")
 	)
 	(embedded_fonts no)
 	(model "${KICAD10_3RD_PARTY}/MyKicadLib/3DOther.3dshapes/CAPPRD750W80D1800H4000.stp"

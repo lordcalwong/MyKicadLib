@@ -1,0 +1,262 @@
+(footprint "C_Radial_D18.0mm_H40.0mm_P7.50mm_PTH_SMD"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "CAP AL ELECT RADIAL D18xH37 P7.5 POL PTH SMD Combo")
+	(tags "Polar Electrolytic Capacitor Radial Diameter 18mm,  Height 37mm, Lead Pitch 7.5mm, PTH & SMD Combo")
+	(property "Reference" "C201"
+		(at -5 -10.6 180)
+		(layer "F.SilkS")
+		(uuid "5a93c7e7-9120-4c1e-803a-6fec4bd1a60e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "C_Polarized"
+		(at 3 -2.5 180)
+		(layer "F.Fab")
+		(uuid "42b2b450-a3a7-4733-92b7-ca010d19b541")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1f9bb786-b682-4385-8f34-15ae59b88e1e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Polarized capacitor, US symbol"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d5cea31f-d3ec-4e3e-839b-2f37bc1d7fdf")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "KiLib_Generator" ""
+		(at 0 0 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "36f5c2d1-d823-469a-933d-47cb7ca40e7b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "AltDatasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4a1a4d56-080b-45ea-9d64-c2c17f8f9a7b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURER" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7661facd-a506-4286-9396-55b9712ca753")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MFR" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1c136f8a-9308-4619-aa27-e43ba7752903")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MFRPN" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8b41469c-d7d3-4b99-9cfc-507601dc031e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property ki_fp_filters "CP_*")
+	(sheetname "/BranchCircuit1/")
+	(sheetfile "BranchCircuit.kicad_sch")
+	(attr through_hole exclude_from_bom dnp)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_arc
+		(start -5.230219 -1.590616)
+		(mid 3.754612 -9.119998)
+		(end 12.731824 -1.581532)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f6d1e952-0bd1-4a45-8197-a57b1c9995be")
+	)
+	(fp_arc
+		(start 12.732285 1.578907)
+		(mid 3.751997 9.119999)
+		(end -5.231593 1.582841)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "516519db-70db-4cfc-b9fe-16ea291b68da")
+	)
+	(fp_circle
+		(center 3.75 0)
+		(end 13 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "71a61767-1eb9-4a62-8362-e584c257f11a")
+	)
+	(fp_circle
+		(center 3.75 0)
+		(end 13.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "8942d887-1d3c-4174-85a0-dac3e016509f")
+	)
+	(fp_text user "+"
+		(at -6.5 -6.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c5dcbaf4-af3b-4f85-a2a7-b75208b25628")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.25)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 3.75 0 180)
+		(layer "F.Fab")
+		(uuid "6a826518-b71c-4e62-b734-57dddc59316f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(point
+		(at 3.75 0)
+		(size 1)
+		(layer "F.SilkS")
+		(uuid "a38b25e9-129c-4a0e-b7a9-ef76df8f1e4b")
+	)
+	(pad "1" thru_hole custom
+		(at 0 0)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -5.785749 -0.6) (xy 0 -0.6) (xy 0 0.6) (xy -5.785749 0.6)
+				)
+				(width 0.2)
+				(fill yes)
+			)
+		)
+		(uuid "2d9ffe79-808f-4b44-ba21-5f31e986ab28")
+	)
+	(pad "2" thru_hole custom
+		(at 7.5 0)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.5 -0.6) (xy 5.9 -0.6) (xy 5.9 0.6) (xy 0.5 0.6)
+				)
+				(width 0.2)
+				(fill yes)
+			)
+		)
+		(uuid "50110f31-4845-4384-8496-46cd3262a165")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Radial_D18.0mm_H35.5mm_P7.50mm.step"
+		(hide yes)
+		(offset
+			(xyz -0.05 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+	(model "${KICAD10_3RD_PARTY}/MyKicadLib/3DOther.3dshapes/CAPPRD750W80D1800H4000.stp"
+		(offset
+			(xyz 3.7 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
