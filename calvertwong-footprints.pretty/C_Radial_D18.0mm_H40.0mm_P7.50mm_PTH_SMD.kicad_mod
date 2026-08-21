@@ -8,7 +8,7 @@
 	(property "Reference" "C201"
 		(at -5 -10.6 180)
 		(layer "F.SilkS")
-		(uuid "5a93c7e7-9120-4c1e-803a-6fec4bd1a60e")
+		(uuid "9ad5046c-33de-4edd-805c-ad2c5a423f49")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 	(property "Value" "C_Polarized"
 		(at 3 -2.5 180)
 		(layer "F.Fab")
-		(uuid "42b2b450-a3a7-4733-92b7-ca010d19b541")
+		(uuid "a3d02471-1b12-4663-b395-208439675b17")
 		(effects
 			(font
 				(size 1 1)
@@ -31,7 +31,7 @@
 		(at 0 0 180)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "1f9bb786-b682-4385-8f34-15ae59b88e1e")
+		(uuid "12c9411a-5f55-433b-bf10-cdc1da754ec8")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -42,7 +42,7 @@
 		(at 0 0 180)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "d5cea31f-d3ec-4e3e-839b-2f37bc1d7fdf")
+		(uuid "0e037a28-562a-4631-a821-a8ddb0749b44")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -53,7 +53,7 @@
 		(at 0 0 180)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "36f5c2d1-d823-469a-933d-47cb7ca40e7b")
+		(uuid "8be259cf-982b-45b3-8b69-1ca659d3cb25")
 		(effects
 			(font
 				(size 1 1)
@@ -66,7 +66,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "4a1a4d56-080b-45ea-9d64-c2c17f8f9a7b")
+		(uuid "7697587a-c437-4ccc-a8f2-3e1c577f7885")
 		(effects
 			(font
 				(size 1 1)
@@ -79,7 +79,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "7661facd-a506-4286-9396-55b9712ca753")
+		(uuid "6dae2cf6-fb2f-4681-b3ea-a38c28aae2ed")
 		(effects
 			(font
 				(size 1 1)
@@ -92,7 +92,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "1c136f8a-9308-4619-aa27-e43ba7752903")
+		(uuid "31821fa2-7ba7-4dff-8a6e-c3cb4e910d6c")
 		(effects
 			(font
 				(size 1 1)
@@ -105,7 +105,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "8b41469c-d7d3-4b99-9cfc-507601dc031e")
+		(uuid "dba74f15-3d61-4453-a58d-ce2c367b3b99")
 		(effects
 			(font
 				(size 1 1)
@@ -116,7 +116,7 @@
 	(property ki_fp_filters "CP_*")
 	(sheetname "/BranchCircuit1/")
 	(sheetfile "BranchCircuit.kicad_sch")
-	(attr through_hole exclude_from_bom dnp)
+	(attr through_hole exclude_from_bom)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_arc
 		(start -5.230219 -1.590616)
@@ -127,7 +127,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "f6d1e952-0bd1-4a45-8197-a57b1c9995be")
+		(uuid "5077bab8-c2ef-4b98-af42-2d3c8c2166f7")
 	)
 	(fp_arc
 		(start 12.732285 1.578907)
@@ -138,7 +138,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "516519db-70db-4cfc-b9fe-16ea291b68da")
+		(uuid "42daa11a-f0ac-48e2-a892-f5bf857b63a1")
 	)
 	(fp_circle
 		(center 3.75 0)
@@ -149,7 +149,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "71a61767-1eb9-4a62-8362-e584c257f11a")
+		(uuid "35140573-267a-41fa-909d-55ac8cc3c33b")
 	)
 	(fp_circle
 		(center 3.75 0)
@@ -160,13 +160,13 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "8942d887-1d3c-4174-85a0-dac3e016509f")
+		(uuid "0f023c87-4f94-494c-b84b-a90faf4841c0")
 	)
 	(fp_text user "+"
 		(at -6.5 -6.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "c5dcbaf4-af3b-4f85-a2a7-b75208b25628")
+		(uuid "811984de-4d39-4a8a-97af-18497c969fd4")
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -179,7 +179,7 @@
 	(fp_text user "${REFERENCE}"
 		(at 3.75 0 180)
 		(layer "F.Fab")
-		(uuid "6a826518-b71c-4e62-b734-57dddc59316f")
+		(uuid "ba77163c-3a72-4839-aab2-20dbb1fa708a")
 		(effects
 			(font
 				(size 1 1)
@@ -191,7 +191,7 @@
 		(at 3.75 0)
 		(size 1)
 		(layer "F.SilkS")
-		(uuid "a38b25e9-129c-4a0e-b7a9-ef76df8f1e4b")
+		(uuid "9c629a5f-1430-4fc1-a0f9-5414a30827d4")
 	)
 	(pad "1" thru_hole custom
 		(at 0 0)
@@ -212,7 +212,7 @@
 				(fill yes)
 			)
 		)
-		(uuid "2d9ffe79-808f-4b44-ba21-5f31e986ab28")
+		(uuid "f93e92e5-9e7c-4e8f-91c7-a571e3664f8a")
 	)
 	(pad "2" thru_hole custom
 		(at 7.5 0)
@@ -233,24 +233,12 @@
 				(fill yes)
 			)
 		)
-		(uuid "50110f31-4845-4384-8496-46cd3262a165")
+		(uuid "58d2d939-8d95-47da-877e-0269032eefd5")
 	)
 	(embedded_fonts no)
-	(model "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Radial_D18.0mm_H35.5mm_P7.50mm.step"
-		(hide yes)
-		(offset
-			(xyz -0.05 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz -0 -0 -0)
-		)
-	)
 	(model "${KICAD10_3RD_PARTY}/MyKicadLib/3DOther.3dshapes/CAPPRD750W80D1800H4000.stp"
 		(offset
-			(xyz 3.7 0 0)
+			(xyz 3.7 0 4)
 		)
 		(scale
 			(xyz 1 1 1)
